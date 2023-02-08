@@ -1,0 +1,62 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* BANNAR SECTION */
+#believe {
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 120vh;
+}
+.believe {
+    text-align: right;
+    color: #fff;
+    padding-top: 250px;
+}
+
+.believe-title {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
+    word-spacing: 5px;
+}
+
+.believe-description {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 30px 0;
+}
+
+.believe-button {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #0171BB;
+    padding: 15px 20px;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
