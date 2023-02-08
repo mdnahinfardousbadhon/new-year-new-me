@@ -11,7 +11,6 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
-    line-height: 1.2;
 }
 
 /* CONTAINER */
@@ -27,12 +26,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 120vh;
+    height: 110vh;
 }
 .believe {
     text-align: right;
     color: #fff;
-    padding-top: 250px;
+    padding: 200px 0px 60px;
 }
 
 .believe-title {
@@ -60,3 +59,39 @@ body {
     cursor: pointer;
 }
 
+/* FAILURES SECTION */
+
+#failures {
+    padding: 90px 0;
+}
+
+.failures {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.failures-image img {
+    width: 80%;
+}
+.failures-title {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.failures-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0;
+}
+
+.failures-list .list-item {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.failures-list .list-item i {
+    margin-right: 10px;
+    color: #0be881;
+}
